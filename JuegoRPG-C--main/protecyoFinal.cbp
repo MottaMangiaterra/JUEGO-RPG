@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="protecyoFinal" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/protecyoFinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/protecyoFinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Codito2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Codito2.h" />
+		<Unit filename="Filas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Filas.h" />
+		<Unit filename="Inventario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Inventario.h" />
+		<Unit filename="Jugador.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Jugador.h" />
+		<Unit filename="Mobs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Mobs.h" />
+		<Unit filename="Objeto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Objeto.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mapa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mapa.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
